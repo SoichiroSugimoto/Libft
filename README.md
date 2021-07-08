@@ -10,17 +10,24 @@
 #### Preparation<br>
 ・main.c<br>
 ```
-#include "srcs/ft_printf.h"
+#include "libft.h"
+#include <stdio.h>
 
 int main()
 {
-	ft_printf("%s\n", "apple");
+	int n;
+	char *str;
+
+	str = "apple";
+	n = ft_strlen(str);
+
+	printf("%d\n", n);
 }
 ```
 
 #### Compile<br>
-1) `$ make` in root dir to generate libftprintf.a<br>
-2) `$ gcc libftprintf.a main.c` to generate a.out<br>
+1) `$ make` in root dir to generate 'function name'.o<br>
+2) `$ gcc 'function name'.o main.c` to generate a.out<br>
 3) `$ ./a.out` to implement program
 <br>
 <br>
