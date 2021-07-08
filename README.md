@@ -1,8 +1,6 @@
 # Libft
 ## ●　PRPJECT OBJECTIVES<br>
->This project is pretty straight forward. You will recode printf. 
-Hopefully you will be able to reuse it in future project without the fear of being flagged as a cheater. 
-You will mainly learn how to use variadic arguments.
+>The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.
 <br>
 <br>
 <br>
